@@ -18,13 +18,17 @@ word2 = prompt ("inserisci un' altra parola");
 
 console.log(word2);
 
-//imposto condizione che stabilisca quale delle due parole è la più lunga e restituisca in console la parola più lunga
+//imposto condizione che stabilisca quale delle due parole è la più lunga e restituisca in console la parola corta e poi la più lunga
 
 if(word1.length > word2.length){
+
+    console.log(`la parola più corta è ${word2}`);
 
     console.log(`la parola più lunga è ${word1}`);
     
 } else if (word1.length < word2.length){
+
+    console.log(`la parola più corta è ${word1}`);
 
     console.log(`la parola più lunga è ${word2}`);
 
