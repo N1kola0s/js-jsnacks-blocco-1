@@ -13,8 +13,8 @@ let user2;
 user1 = parseInt(prompt("Inserisci un numero"));
 
 
-//inizio user2 inserendo dati domandati aell'utente
-user2 = parseInt(prompt("inserisci un numero"))
+//inizio user2 inserendo dati domandati all'utente
+user2 = parseInt(prompt("inserisci un numero"));
 
 
 //inserisco condizione per stabilire il numero maggiore e stamparlo in console
@@ -28,5 +28,5 @@ if(user1>user2){
 
     
 } else {
-    console.log("i due numeri sono uguali")
+    console.log("i due numeri sono uguali");
 }
