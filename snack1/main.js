@@ -20,13 +20,11 @@ user2 = parseInt(prompt("inserisci un numero"))
 //inserisco condizione per stabilire il numero maggiore e stamparlo in console
 if(user1>user2){
 
-    console.log(user1);
-
-
+    console.log(`il numero più grande è ${user1}`);
     
 } else if (user1>user2){
 
-    console.log(user2);
+    console.log(`il numero più grande è ${user2}`);
 
     
 } else {
