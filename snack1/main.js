@@ -22,7 +22,7 @@ if(user1>user2){
 
     console.log(`il numero più grande è ${user1}`);
     
-} else if (user1>user2){
+} else if (user1<user2){
 
     console.log(`il numero più grande è ${user2}`);
 
