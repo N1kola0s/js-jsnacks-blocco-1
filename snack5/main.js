@@ -17,16 +17,18 @@ let bool =  true;
 
 for(let i=0; i<6; i++){
 
-    //dichiaro una variabile all'interno della quale inserisco il numero chiesto all'utente 
+    //inizializzo la variabile con il numero chiesto all'utente 
 
     num = parseInt(prompt("Inserisci un numero"));  
 
     /*  console.log(i); */
 
-    //imposto la condizione che solo se il numero inserito dall'utente è dispari viene successivamente aggunto nel nostro array
+    //imposto una condizione, solo se il numero inserito dall'utente è dispari viene successivamente aggiunto nel nostro array
 
     if(num % 2 == 0){
+
         bool = false; 
+
     } else {
     
         list_number.push(num);
@@ -35,5 +37,6 @@ for(let i=0; i<6; i++){
 
 } 
 
-//stampo l'array in console che corrisonde alla lista dei numeri dispari inseriti dall'utente
+//stampo l'array in console,  corrisonde alla lista dei numeri dispari inseriti dall'utente
+
 console.log(list_number);
