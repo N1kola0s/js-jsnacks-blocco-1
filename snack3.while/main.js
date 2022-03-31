@@ -12,6 +12,7 @@ while (i<10){
 
     sum = sum + num;
 
+    //inserisco la condizione che ad un certo punto del ciclo risulterà falsa perchè supererà quella impostata inizialmente, uscendo dal ciclo
     i ++
 
 }
